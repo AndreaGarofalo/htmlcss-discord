@@ -38,10 +38,35 @@ body {
 }
 
 header {
-  background-color: lightblue;
+  background-color: #3161e0;
 }
 
 /* # Navbar */
+
+li {
+  list-style-type: none;
+
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.login-button {
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  border: white;
+}
 
 .navbar {
   height: 80px;
@@ -54,7 +79,6 @@ header {
 .navbar > * {
   padding: 10px;
   flex-basis: 20%;
-  background-color: goldenrod;
 }
 
 .navbar-menu {
