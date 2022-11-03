@@ -45,7 +45,7 @@ header {
 
 li {
   list-style-type: none;
-
+  padding:  10px 0;
 }
 
 .navbar-list {
@@ -70,7 +70,7 @@ a {
 
 .navbar {
   height: 80px;
-  
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -106,7 +106,7 @@ h1 {
   margin: 40px;
 }
 
-.jumbotron-paragraph{
+.jumbotron-paragraph {
   font-size: 21px;
 }
 
@@ -174,7 +174,6 @@ h2 {
   width: 100%;
 }
 
-
 h3 {
   font-size: 30px;
 }
@@ -182,11 +181,6 @@ h3 {
 .download-button-mac {
   background-color: #8ea1e1;
   color: white;
-}
-
-
-.flex > .full-col-section {
-  /* min-height: 800px; */
 }
 
 /* # Footer */
@@ -201,29 +195,68 @@ footer {
   height: 600px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid purple;
-
+  border-bottom: 1px solid white;
   display: flex;
+  color: white;
 }
 
 .footer-top .footer-left {
   flex-basis: 30%;
-  background-color: pink;
+}
+
+.footer-left > :first-child {
+  color: #7289da;
+  font-size: 40px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.nav-col > :first-child {
+  color: #7289da;
+  padding-top: 70px;
+  padding-bottom: 15px;
+}
+
+.language > .italian-flag {
+  max-width: 25px;
+}
+
+.language {
+  padding-bottom: 25px;
+}
+
+.contact-links {
+  width: 60%;
+}
+
+.flex-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.fa-brands {
+  font-size: 22px;
+  color: white;
+  padding: 0;
 }
 
 .footer-top .footer-right {
   flex-basis: 70%;
-  background-color: #20b2aa;
 }
 
 .footer-nav {
   height: 100%;
   display: flex;
-  /* background-color: #fff; */
 }
 
 .footer-nav > div {
   flex-basis: 25%;
+  padding-left: 30px;
+}
+
+.nav-title {
+  font-size: 20px;
 }
 
 .footer-bottom {
