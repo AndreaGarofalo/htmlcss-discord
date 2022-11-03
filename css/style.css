@@ -38,7 +38,7 @@ body {
 }
 
 header {
-  background-color: #3161e0;
+  background-color: #255ee9;
 }
 
 /* # Navbar */
@@ -51,7 +51,7 @@ li {
 .navbar-list {
   display: flex;
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 a {
@@ -60,17 +60,17 @@ a {
 }
 
 .login-button {
-  border-radius: 25px;
   background-color: white;
   color: black;
   font-size: 20px;
   padding: 10px;
   border: white;
+  border-radius: 25px;
 }
 
 .navbar {
   height: 80px;
-
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -95,20 +95,45 @@ a {
 .jumbotron {
   padding: 50px;
   height: 500px;
-  background-color: darkblue;
-
   display: flex;
   justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 40px;
+}
+
+.jumbotron-paragraph{
+  font-size: 21px;
+}
+
+.bgi-jumbotron {
+  background-image: url(../img/jumbo.png);
+  background-size: 100%;
+}
+
+.jumbotron-button {
+  margin: 25px;
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+}
+
+.open-button {
+  background-color: black;
+  color: white;
 }
 
 .jumbotron .content {
   width: 50%;
-  /* height: 100%; */
-  /* margin: 0 auto; */
-  background-color: violet;
 }
 
 /* # Main & sections */
+
 section {
   padding: 50px;
   height: 600px;
