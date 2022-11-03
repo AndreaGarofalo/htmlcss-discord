@@ -62,10 +62,11 @@ a {
 .login-button {
   background-color: white;
   color: black;
-  font-size: 20px;
+  font-size: 16px;
   padding: 10px;
   border: white;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .navbar {
@@ -115,12 +116,13 @@ h1 {
   background-size: 100%;
 }
 
-.jumbotron-button {
+.style-button {
   margin: 25px;
   padding: 15px 30px;
   font-size: 20px;
   border: none;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .open-button {
@@ -178,7 +180,7 @@ h3 {
   font-size: 30px;
 }
 
-.download-button-mac {
+.blue-button {
   background-color: #8ea1e1;
   color: white;
 }
@@ -219,6 +221,10 @@ footer {
 
 .language > .italian-flag {
   max-width: 25px;
+}
+
+.fa-angle-down {
+  cursor: pointer;
 }
 
 .language {
@@ -263,11 +269,13 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  background-color: aquamarine;
+  padding: 10px 0;
 }
 
 .footer-bottom > * {
   padding: 5px 10px;
-  background-color: yellow;
+}
+
+#register-button {
+  font-size: 18px;
 }
