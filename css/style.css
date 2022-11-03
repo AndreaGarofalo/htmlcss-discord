@@ -134,7 +134,7 @@ h1 {
 
 /* # Main & sections */
 
-section {
+.two-col-section {
   padding: 50px;
   height: 600px;
 }
@@ -144,11 +144,11 @@ section > .container {
 }
 
 .flex > .small-col {
-  flex-basis: 40%;
+  flex-basis: 30%;
 }
 
 .flex > .large-col {
-  flex-basis: 60%;
+  flex-basis: 70%;
 }
 
 h2 {
@@ -160,13 +160,33 @@ h2 {
   font-size: 21px;
 }
 
-.img-right {
-  text-align: right;
+.flex-img-right {
+  display: flex;
+  justify-content: end;
 }
 
 .flex > .full-col {
   flex-basis: 100%;
-  background-color: darkgreen;
+  text-align: center;
+}
+
+.full-col-img {
+  width: 100%;
+}
+
+
+h3 {
+  font-size: 30px;
+}
+
+.download-button-mac {
+  background-color: #8ea1e1;
+  color: white;
+}
+
+
+.flex > .full-col-section {
+  /* min-height: 800px; */
 }
 
 /* # Footer */
