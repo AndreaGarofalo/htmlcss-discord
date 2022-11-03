@@ -34,7 +34,7 @@ body {
 }
 
 .bg-gray {
-  background-color: lightgray;
+  background-color: #f6f6f6;
 }
 
 header {
@@ -145,12 +145,23 @@ section > .container {
 
 .flex > .small-col {
   flex-basis: 40%;
-  background-color: pink;
 }
 
 .flex > .large-col {
   flex-basis: 60%;
-  background-color: dodgerblue;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 30px 0;
+}
+
+.main-paragraph {
+  font-size: 21px;
+}
+
+.img-right {
+  text-align: right;
 }
 
 .flex > .full-col {
