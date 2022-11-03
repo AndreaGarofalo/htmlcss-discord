@@ -196,6 +196,16 @@ h3 {
   color: white;
 }
 
+.star-text {
+  background-image: url(../img/stars.svg);
+  background-size: 48%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: 0px;
+  padding-bottom: 30px;
+  padding-top: 43px;
+}
+
 /* # Footer */
 
 footer {
